@@ -1,0 +1,18 @@
+{
+  "uid": 100,
+  "balance": 0,
+  "bet": 1,
+  "availableBets": [1, 5, 10, 25],
+  "win": 0,
+  "rolls": [
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0]
+  ],
+  "app": {
+    "width": 860,
+    "height": 620,
+    "backgroundColor": "0x1099bb",
+    "antialiasing": true
+  }
+}

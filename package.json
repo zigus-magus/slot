@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@pixi/assets": "^7.4.2",
+    "@pixi/filter-adjustment": "^5.1.1",
+    "gsap": "^3.12.5",
+    "pixi.js": "^7.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "vite": "^5.4.7"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  }
+}
