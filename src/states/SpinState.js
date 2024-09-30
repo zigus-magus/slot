@@ -12,6 +12,7 @@ export class SpinState extends BaseState {
 
         this.gameController.startRolling();
         await this.makeSpinRequest();
+        await this.imitateResponseTime(1000, 1500);
         this.gameController.updateFinalSymbols();
         this.gameController.stopRolling();
 

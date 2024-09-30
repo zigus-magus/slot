@@ -12,7 +12,6 @@
       "texture": "footer",
       "position": { "x": 0, "y": 490 }
     },
-
     {
       "name": "winLabel",
       "type": "TextField",
@@ -195,6 +194,25 @@
           "anchor": { "x": 0.5, "y": 0.5 }
         }
       ]
+    },
+    {
+      "name": "winSplash",
+      "type": "TextField",
+      "position": { "x": 435, "y": 260},
+      "anchor": {"x": 0.5, "y": 0.5 },
+      "style": {
+        "fontSize": 100,
+        "align": "center",
+        "fill": [
+          "#ffbb00",
+          "#fbff00",
+          "#ffa200"
+        ],
+        "fontWeight": "bold",
+        "stroke": "#7e4401",
+        "strokeThickness": 5,
+        "textBaseline": "middle"
+      }
     }
   ]
 }

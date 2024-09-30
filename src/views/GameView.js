@@ -1,4 +1,5 @@
 import * as PIXI from 'pixi.js';
+import {AdjustmentFilter} from "@pixi/filter-adjustment";
 
 export class GameView {
     constructor(app) {
@@ -27,10 +28,6 @@ export class GameView {
         } else {
             console.warn(`Element ${name} does not exist or is not a PixiJS DisplayObject`);
         }
-    }
-
-    get winSplashLabel() {
-        return this.getElement('winSplashLabel');
     }
 
     updateWin(win) {
@@ -68,7 +65,7 @@ export class GameView {
         const button = buttonContainer ? buttonContainer.children[0] : null;
         if (button) {
             button.eventMode = 'dynamic';
-            button.alpha = 1;
+            button.filters = [];
         } else {
             console.warn(`Button ${name} not found or invalid`);
         }
@@ -78,11 +75,15 @@ export class GameView {
         const buttonContainer = this.getElement(name);
         const button = buttonContainer ? buttonContainer.children[0] : null;
         if (button) {
+            button.filters = [new AdjustmentFilter({saturation: 0, brightness: 0.7})];
             button.eventMode = 'none';
-            button.alpha = 0.5;
         } else {
             console.warn(`Button ${name} not found or invalid`);
         }
+    }
+
+    get winSplash() {
+        return this.getElement('winSplash');
     }
 
     setButtonHandler(name, callback, event = 'pointerdown') {
