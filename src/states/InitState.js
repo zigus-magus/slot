@@ -1,6 +1,6 @@
 import {BaseState} from "./BaseState";
 import {States} from "../constants/States";
-import sceneConfig from "../config/sceneConfig";
+import { sceneConfig } from '../config/config';
 import {NetworkController} from "../network/NetworkController";
 
 

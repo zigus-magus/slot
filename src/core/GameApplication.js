@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js';
-import * as initialConfig from '../config/initialGameConfig.json';
+import { initialGameConfig } from '../config/config';
 
 class GameApplication {
     constructor() {
@@ -7,7 +7,7 @@ class GameApplication {
             return GameApplication.instance;
         }
 
-        this.app = new PIXI.Application({...initialConfig.app});
+        this.app = new PIXI.Application({...initialGameConfig.app});
 
         globalThis.__PIXI_APP__ = this.app;
 

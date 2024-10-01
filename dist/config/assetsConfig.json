@@ -1,0 +1,92 @@
+{
+  "resources": [
+    {
+      "assetName": "background",
+      "assetPath": "/assets/background.png"
+    },
+    {
+      "assetName": "footer",
+      "assetPath": "/assets/footer.png"
+    },
+    {
+      "assetName": "balance_panel",
+      "assetPath": "/assets/balance_panel.png"
+    },
+    {
+      "assetName": "button_max_bet",
+      "assetPath": "/assets/button_max_bet.png"
+    },
+    {
+      "assetName": "button_minus",
+      "assetPath": "/assets/button_minus.png"
+    },
+    {
+      "assetName": "button_plus",
+      "assetPath": "/assets/button_plus.png"
+    },
+    {
+      "assetName": "button_spin",
+      "assetPath": "/assets/button_spin.png"
+    },
+    {
+      "assetName": "glow_0",
+      "assetPath": "/assets/glow_0.png"
+    },
+    {
+      "assetName": "glow_1",
+      "assetPath": "/assets/glow_1.png"
+    },
+    {
+      "assetName": "glow_2",
+      "assetPath": "/assets/glow_2.png"
+    },
+    {
+      "assetName": "separator",
+      "assetPath": "/assets/separator.png"
+    },
+    {
+      "assetName": "symbol_0",
+      "assetPath": "/assets/symbol_0.png"
+    },
+    {
+      "assetName": "symbol_1",
+      "assetPath": "/assets/symbol_1.png"
+    },
+    {
+      "assetName": "symbol_2",
+      "assetPath": "/assets/symbol_2.png"
+    },
+    {
+      "assetName": "symbol_3",
+      "assetPath": "/assets/symbol_3.png"
+    },
+    {
+      "assetName": "symbol_4",
+      "assetPath": "/assets/symbol_4.png"
+    },
+    {
+      "assetName": "symbol_5",
+      "assetPath": "/assets/symbol_5.png"
+    },
+    {
+      "assetName": "symbol_6",
+      "assetPath": "/assets/symbol_6.png"
+    },
+    {
+      "assetName": "symbol_8",
+      "assetPath": "/assets/symbol_8.png"
+    },
+    {
+      "assetName": "symbol_7",
+      "assetPath": "/assets/symbol_7.png"
+    },
+    {
+      "assetName": "symbol_9",
+      "assetPath": "/assets/symbol_9.png"
+    },
+    {
+      "assetName": "symbol_10",
+      "assetPath": "/assets/symbol_10.png"
+    }
+  ]
+}

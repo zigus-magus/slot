@@ -1,5 +1,3 @@
-
-
 import { gameApp } from './core/GameApplication';
 import { GameView } from './views/GameView';
 import { AssetsLoader } from './utils/AssetsLoader';
@@ -8,7 +6,7 @@ import { GameController } from './controllers/GameController';
 import { GameModel } from "./models/GameModel";
 import {States} from "./constants/States";
 import {StateMachine} from "./core/StateMachine";
-import initialGameConfig from "./config/initialGameConfig.json";
+import { initialGameConfig } from "./config/Config";
 
 const game = gameApp.getApp();
 const model = new GameModel();
