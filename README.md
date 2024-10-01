@@ -2,6 +2,8 @@
 
 This project is a simple slot game built using PIXI.js and Vite.
 
+Game Preview - https://simple-slot-game.glitch.me/
+
 ## Prerequisites
 
 - Node.js (v14 or higher)
